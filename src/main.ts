@@ -1,10 +1,15 @@
 import "./style.css";
 import { setupCounter } from "./counter.ts";
+import { setupWebGL } from "./webgl";
 
-document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
+const appDiv = document.querySelector<HTMLDivElement>("#app")!;
+appDiv.innerHTML = `
   <div>
-    <h1>Hello World</h1>
+    <canvas id="webgl-canvas" width="400" height="300" style="border:1px solid #ccc;"></canvas>
   </div>
 `;
 
-setupCounter(document.querySelector<HTMLButtonElement>("#counter")!);
+setupWebGL(document.getElementById("webgl-canvas") as HTMLCanvasElement);
+
+// Optionally keep the counter if you want to use it elsewhere
+// setupCounter(document.querySelector<HTMLButtonElement>("#counter")!);
