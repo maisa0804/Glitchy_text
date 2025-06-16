@@ -10,7 +10,8 @@ This project displays animated, colorful, glitchy, and shaggy text using WebGL a
 
 ## Demo
 
-![screenshot](screenshot.png) <!-- Add a screenshot if you like -->
+![Screenshot 2025-06-17 at 00 46 40 (2)](https://github.com/user-attachments/assets/1243ea12-8f2f-4829-9c2e-fb84dee64cd0)
+ <!-- Add a screenshot if you like -->
 
 ## Getting Started
 
